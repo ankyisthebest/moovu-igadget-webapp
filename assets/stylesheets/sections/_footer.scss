@@ -1,0 +1,29 @@
+#Footer {
+	margin: 0 auto;
+	height: 100%;
+	padding-right: 0;
+	font-size: 12px;
+	font-family: arial;
+	font-weight: 300;
+	@include background(linear-gradient(#C14102 0, shade(#C14102, 20%) 100%));   
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		p {
+			text-align: center;
+			padding: 5px;
+			margin: 0 auto;
+		} 
+}
+
+.mw-footer {
+	color: white;
+	@include background(linear-gradient(top, #852201, #6a1b00));
+	font-family: TrebuchetMS;
+	margin: 0 auto;
+	height: 100%;
+	font-size: 12px;
+	padding-right: 0;
+	text-align: center;
+}

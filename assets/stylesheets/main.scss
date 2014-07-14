@@ -1,0 +1,20 @@
+@import "globals/_base.scss";
+@import "globals/_sprites";
+@import "globals/uranium";
+@import "globals/bourbon/bourbon";
+@import "globals/bourbon_fix";
+
+// Import global base styles
+
+
+// Header & Footer
+@import "sections/_header.scss";
+@import "sections/_footer.scss";
+
+// Pages
+@import "pages/home.scss";
+@import "pages/_category.scss";
+
+@import "globals/_variables.scss";
+@import "globals/_lib.scss";
+

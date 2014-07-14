@@ -1,0 +1,18 @@
+@mixin h2 {
+	margin-left: 0px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 5px;
+	font-family: TrebuchetMS;
+	background: #7E2801;
+	color: white;
+	font-size: 17px;
+	display: flex;
+	padding: 7px;
+	padding-bottom: 0px;
+	height: 23px;
+	position: relative;
+	top: -4px;
+	margin-bottom: 4.5px;	
+}	
+

@@ -1,0 +1,48 @@
+#AjaxLoading {
+	display: none;
+}
+
+body {
+	margin: 0 auto;
+	background-color: white;
+	font-family: TrebuchetMS;
+
+}
+
+#Menu {
+	padding-top: 50px;
+}
+
+ul li{
+	list-style: none;
+	a {
+		text-decoration: none;
+		color: #990000;
+	}
+}
+
+.QuickViewBtn {
+	position: absolute;
+	font-size: 14px;
+}
+
+.FeedLink.FloatRight {
+	margin-top: 6px !important;
+	height: 20px !important;
+	-webkit-border-radius: 6px !important;
+	-moz-border-radius: 6px !important;
+	border-radius: 6px !important;
+	margin: 0 5px !important;
+	position: relative !important; 
+	background-color: white !important; 
+	padding: 0 !important;
+}
+
+[data-ur-set="carousel"] {
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+[data-ur-carousel-component="item"] {
+  float: left !important;
+}
