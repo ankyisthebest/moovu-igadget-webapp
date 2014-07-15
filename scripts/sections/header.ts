@@ -63,9 +63,9 @@ $(".//div[contains(@class, 'Content')]") {
 		$("./div") { 
 			attribute("data-ur-set", "carousel")
 			attribute("data-ur-fill", "1")
-			attribute("data-ur-carousel-component", "view_container")
 			attribute("data-ur-autoscroll", "enabled")
-			attribute("data-ur-autoscroll-delay", "5000")
+			attribute("data-ur-autoscroll-delay", "4000")
+			attribute("data-ur-carousel-component", "view_container")
 			attribute("data-ur-id", "FeaturedProductsCarousel")
 			$("./ul") { 
 			attribute("data-ur-carousel-component", "scroll_container")
@@ -87,3 +87,188 @@ $(".//div[contains(@class, 'Content')]") {
 	}
 }		
 }
+
+$("body"){
+$(".//div[contains(@class, 'Content')]") {
+	$(".//div[@id='HomeNewProducts']") { 
+		$("./div") { 
+			attribute("data-ur-set", "carousel")
+			attribute("data-ur-fill", "1")
+			attribute("data-ur-carousel-component", "view_container")
+			attribute("data-ur-autoscroll", "enabled")
+			attribute("data-ur-autoscroll-delay", "5000")
+			attribute("data-ur-id", "NewProductsCarousel")
+			$("./ul") { 
+			attribute("data-ur-carousel-component", "scroll_container")
+				$$(".Odd") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+				$$(".Even") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+			} 
+			insert("div",class:"carousel_navigation"){
+				insert("div",class:"Previous",data-ur-carousel-component:"button",data-ur-carousel-button-type:"prev","Back")
+				insert("div",class:"Next",data-ur-carousel-component:"button",data-ur-carousel-button-type:"next","Forward")
+				insert("div",class:"Dots",data-ur-carousel-component:"dots")
+			}
+		insert("hr") 	
+		} 
+	}
+}		
+}
+
+$("body"){
+$(".//div[contains(@class, 'Right')]") {
+	$(".//div[@id='SidePopularProducts']") { 
+		$("./div") { 
+			attribute("data-ur-set", "carousel")
+			attribute("data-ur-fill", "1")
+			attribute("data-ur-carousel-component", "view_container")
+			attribute("data-ur-autoscroll", "enabled")
+			attribute("data-ur-autoscroll-delay", "5000")
+			attribute("data-ur-id", "SidePopularProductsCarousel")
+			$("./ul") { 
+			attribute("data-ur-carousel-component", "scroll_container")
+				$$(".Odd") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+				$$(".Even") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+			} 
+			insert("div",class:"carousel_navigation"){
+				insert("div",class:"Previous",data-ur-carousel-component:"button",data-ur-carousel-button-type:"prev","Back")
+				insert("div",class:"Next",data-ur-carousel-component:"button",data-ur-carousel-button-type:"next","Forward")
+				insert("div",class:"Dots",data-ur-carousel-component:"dots")
+			}
+		insert("hr") 	
+		} 
+	}
+}		
+}
+
+$("body"){
+$(".//div[contains(@class, 'Right')]") {
+	$(".//div[@id='SideNewProducts']") { 
+		$("./div") { 
+			attribute("data-ur-set", "carousel")
+			attribute("data-ur-fill", "1")
+			attribute("data-ur-carousel-component", "view_container")
+			attribute("data-ur-autoscroll", "enabled")
+			attribute("data-ur-autoscroll-delay", "5000")
+			attribute("data-ur-id", "SideNewProductsCarousel")
+			$("./ul") { 
+			attribute("data-ur-carousel-component", "scroll_container")
+				$$(".Odd") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+				$$(".Even") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+			} 
+			insert("div",class:"carousel_navigation"){
+				insert("div",class:"Previous",data-ur-carousel-component:"button",data-ur-carousel-button-type:"prev","Back")
+				insert("div",class:"Next",data-ur-carousel-component:"button",data-ur-carousel-button-type:"next","Forward")
+				insert("div",class:"Dots",data-ur-carousel-component:"dots")
+			}
+		insert("hr") 	
+		} 
+	}
+}		
+}
+
+$("body"){
+$(".//div[contains(@class, 'Right')]") {
+	$(".//div[@id='SideTopSellers']") { 
+		$("./div") { 
+			attribute("data-ur-set", "carousel")
+			attribute("data-ur-fill", "1")
+			attribute("data-ur-carousel-component", "view_container")
+			attribute("data-ur-autoscroll", "enabled")
+			attribute("data-ur-autoscroll-delay", "5000")
+			attribute("data-ur-id", "SideTopSellersCarousel")
+			$("./ul") { 
+			attribute("data-ur-carousel-component", "scroll_container")
+				$("li") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+			} 
+			insert("div",class:"carousel_navigation"){
+				insert("div",class:"Previous",data-ur-carousel-component:"button",data-ur-carousel-button-type:"prev","Back")
+				insert("div",class:"Next",data-ur-carousel-component:"button",data-ur-carousel-button-type:"next","Forward")
+				insert("div",class:"Dots",data-ur-carousel-component:"dots")
+			}
+		insert("hr") 	
+		} 
+	}
+}		
+}
+
+$("body"){
+$(".//div[contains(@class, 'Right')]") {
+	$(".//div[@id='SideCategoryTopSellers']") { 
+		$("./div") { 
+			attribute("data-ur-set", "carousel")
+			attribute("data-ur-fill", "1")
+			attribute("data-ur-carousel-component", "view_container")
+			attribute("data-ur-autoscroll", "enabled")
+			attribute("data-ur-autoscroll-delay", "5000")
+			attribute("data-ur-id", "SideCategoryTopSellers")
+			$("./ul") { 
+			attribute("data-ur-carousel-component", "scroll_container")
+				$("li") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+			} 
+			insert("div",class:"carousel_navigation"){
+				insert("div",class:"Previous",data-ur-carousel-component:"button",data-ur-carousel-button-type:"prev","Back")
+				insert("div",class:"Next",data-ur-carousel-component:"button",data-ur-carousel-button-type:"next","Forward")
+				insert("div",class:"Dots",data-ur-carousel-component:"dots")
+			}
+		insert("hr") 	
+		} 
+	}
+}		
+}
+
+$("body"){
+$(".//div[contains(@class, 'Right')]") {
+	$(".//div[@id='SideCategoryNewProducts']") { 
+		$("./div") { 
+			attribute("data-ur-set", "carousel")
+			attribute("data-ur-fill", "1")
+			attribute("data-ur-carousel-component", "view_container")
+			attribute("data-ur-autoscroll", "enabled")
+			attribute("data-ur-autoscroll-delay", "5000")
+			attribute("data-ur-id", "SideCategoryNewProducts")
+			$("./ul") { 
+			attribute("data-ur-carousel-component", "scroll_container")
+				$("li") { 
+				attribute("data-ur-carousel-component", "item")
+				} 
+			} 
+			insert("div",class:"carousel_navigation"){
+				insert("div",class:"Previous",data-ur-carousel-component:"button",data-ur-carousel-button-type:"prev","Back")
+				insert("div",class:"Next",data-ur-carousel-component:"button",data-ur-carousel-button-type:"next","Forward")
+				insert("div",class:"Dots",data-ur-carousel-component:"dots")
+			}
+		insert("hr") 	
+		} 
+	}
+}		
+}
+
+$$("#SideNewProducts") {
+	remove()
+}
+
+$$("#SideNewsletterBox") {
+	remove()
+}
+
+$$("#SideBrandTagCloud") {
+	remove()
+}
+
+

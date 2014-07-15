@@ -4,9 +4,8 @@
 
 body {
 	margin: 0 auto;
-	background-color: white;
+	background-color: #FAFAFA;
 	font-family: TrebuchetMS;
-
 }
 
 #Menu {
@@ -27,15 +26,7 @@ ul li{
 }
 
 .FeedLink.FloatRight {
-	margin-top: 6px !important;
-	height: 20px !important;
-	-webkit-border-radius: 6px !important;
-	-moz-border-radius: 6px !important;
-	border-radius: 6px !important;
-	margin: 0 5px !important;
-	position: relative !important; 
-	background-color: white !important; 
-	padding: 0 !important;
+	display: none;
 }
 
 [data-ur-set="carousel"] {
@@ -45,4 +36,80 @@ ul li{
 
 [data-ur-carousel-component="item"] {
   float: left !important;
+}
+
+.BlockContent {
+.ProductDetails, .ProductPriceRating, .ProductActionAdd {
+	height: auto !important;
+	text-align: center !important;
+}
+}
+
+.Previous, .Next {
+	display: block;
+	margin-top: -1px;
+	text-align: center;
+	font-size: 17px;
+	padding-right: 10px;
+	color: #852201;
+	&:hover {
+		color: #FF5C33;
+	}
+}
+
+.Next {
+	float: right;
+}
+
+.Previous {
+	float: left;
+margin: 0 auto;
+padding-left: 10px;
+}
+
+hr {
+	display: none;
+}
+
+.ProductImage {
+	margin: 0 auto;
+	height: auto !important;
+}
+
+#HomeFeaturedProducts h2 {
+	margin-bottom: 0px;
+}
+
+.Odd, .Even {
+	height: auto;
+}
+
+[data-ur-carousel-component="dots"] {
+	display: none;
+}
+
+h2 {
+	margin-left: 10px;
+} 
+
+ul li img {
+	display: block;
+	margin: auto;
+}
+
+div.TopSellerNumber {
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 10px;
+	color: #FF1919;
+	-webkit-text-fill-color: #FF1919;
+	-webkit-text-stroke: 0.7px #990000;
+}
+
+#SideTopSellers h2 {
+	margin-bottom: 0;
+}
+
+#SideCategoryList {
+	margin-bottom: -50px !important;
 }

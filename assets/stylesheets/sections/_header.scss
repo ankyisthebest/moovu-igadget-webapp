@@ -67,6 +67,11 @@
         display: inline-block;
         width: 75%;
         position: relative;
+        #SearchForm {
+          form {
+            margin-left: 10px;
+          }
+        }
         input[type='text']{
           -webkit-box-shadow:inset 0 0 3px #000;
           -moz-box-shadow:inset 0 0 3px #000;
@@ -94,7 +99,7 @@
       .mw_menu_btn {
           margin-top: 7px;
           margin-bottom: 7px;
-          margin-right: 13px;
+          margin-right: 12px;
           float: right;
           display: inline-block;
         &[data-ur-state="enabled"] span {
